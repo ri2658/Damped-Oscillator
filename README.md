@@ -4,9 +4,9 @@ Consider a system:
 
 $$
 \begin{aligned}
--kx-cv&=ma \\ 
--kdx-c\frac{dx}{dt}&=m\frac{d^2x}{dt^2} \\
-m\frac{d^2x}{dt^2}+c\frac{dx}{dt}+kx&=0 \\ 
+-kx-cv=ma \\ 
+-kdx-c\frac{dx}{dt}=m\frac{d^2x}{dt^2} \\
+m\frac{d^2x}{dt^2}+c\frac{dx}{dt}+kx=0 \\ 
 \end{aligned}
 $$
 
@@ -39,34 +39,34 @@ Let's examine different possibilities for the discriminant $c^2-4mk$.
 
 $$
 \begin{aligned}
-c^2-4mk<0 	\Rightarrow c^2<4mk \cdots \textcircled{1}\\
-c^2-4mk=0 	\Rightarrow c^2=4mk \cdots \textcircled{2}\\ 
-c^2-4mk>0 	\Rightarrow c^2>4mk \cdots \textcircled{3}\\ 
+c^2-4mk<0 	\Rightarrow c^2<4mk \cdots 1\\
+c^2-4mk=0 	\Rightarrow c^2=4mk \cdots 2\\ 
+c^2-4mk>0 	\Rightarrow c^2>4mk \cdots 1\\ 
 \end{aligned}
 $$
 
 For our convenience, let $d=\sqrt{|c^2 - 4mk|}$.
 
-**Possibility $\textcircled{1}$**
+**Possibility $1$**
 
 $$
 \begin{aligned}
-r&=\frac{-c \pm id}{2m}\\
+r=\frac{-c \pm id}{2m}\\
 \newline
-\Rightarrow x(t)&=\exp(\frac{-c}{2m}t \pm i\frac{d}{2m}t) \\ 
-&= \exp(\frac{-c}{2m}t)\exp(\pm i\frac{d}{2m}t) \\ 
-&= \exp(\frac{-c}{2m}t)(\cos(\frac{d}{2m}t) \pm i\sin(\frac{d}{2m}t)) \\
-\Rightarrow x(t) &= C_{1}e^{\frac{-c}{2m}t}\cos(\frac{d}{2m}t) + C_{1}e^{\frac{-c}{2m}t}\sin(\frac{d}{2m}t)
+\Rightarrow x(t)=\exp(\frac{-c}{2m}t \pm i\frac{d}{2m}t) \\ 
+= \exp(\frac{-c}{2m}t)\exp(\pm i\frac{d}{2m}t) \\ 
+= \exp(\frac{-c}{2m}t)(\cos(\frac{d}{2m}t) \pm i\sin(\frac{d}{2m}t)) \\
+\Rightarrow x(t) = C_{1}e^{\frac{-c}{2m}t}\cos(\frac{d}{2m}t) + C_{1}e^{\frac{-c}{2m}t}\sin(\frac{d}{2m}t)
 \end{aligned}
 $$
 
-**Possibility $\textcircled{2}$**
+**Possibility $2$**
 
 $$
 \begin{aligned}
-r&=\frac{-c}{2m}
+r=\frac{-c}{2m}
 \newline
-\Rightarrow x(t)&=\exp(\frac{-c}{2m}t)
+\Rightarrow x(t)=\exp(\frac{-c}{2m}t)
 \end{aligned}
 $$
 
@@ -74,7 +74,7 @@ But we need one more root, so we multiply by $t$.
 
 $$
 \begin{aligned}
-x(t) &= t\exp(\frac{-c}{2m}t)
+x(t) = t\exp(\frac{-c}{2m}t)
 \end{aligned}
 $$
 
@@ -82,11 +82,11 @@ Just to make sure, let's check that this is a solution.
 
 $$
 \begin{aligned}
-m\frac{d^2x}{dt^2}+c\frac{dx}{dt}+kx&=0 \\
+m\frac{d^2x}{dt^2}+c\frac{dx}{dt}+kx=0 \\
 m(\frac{-c}{2m}\exp(\frac{-c}{2m}t)-\frac{-c}{2m}\exp(\frac{-c}{2m}t)+(\frac{-c}{2m})^2t\exp(\frac{-c}{2m}t))\\
 +c(\exp(\frac{-c}{2m}t)-\frac{c}{2m}t\exp(\frac{-c}{2m}t))+\\
-k(t\exp(\frac{-c}{2m}t)) &= 0 \\
-(-\frac{c^2}{4m}+k)t\exp(-\frac{c}{2m}t) &= 0
+k(t\exp(\frac{-c}{2m}t)) = 0 \\
+(-\frac{c^2}{4m}+k)t\exp(-\frac{c}{2m}t) = 0
 \end{aligned}
 $$
 
@@ -94,7 +94,7 @@ Recalling that $c^2=4mk$ for this scenario,
 
 $$
 \begin{aligned}
-(-\frac{c^2}{4m}+k)t\exp(-\frac{c}{2m}t) &= 0
+(-\frac{c^2}{4m}+k)t\exp(-\frac{c}{2m}t) = 0
 \end{aligned}
 $$
 
@@ -108,13 +108,13 @@ x(t) = C_{1}\exp(-\frac{c}{2m}t)+C_{2}t\exp(-\frac{c}{2m}t)
 \end{aligned}
 $$
 
-**Possibility $\textcircled{3}$**
+**Possibility $3$**
 
 $$
 \begin{aligned}
-r &= \frac{-c \pm d}{2m}
+r = \frac{-c \pm d}{2m}
 \newline
-\Rightarrow x(t) &= C_{1}\exp(-\frac{c+d}{2m}t)+C_{2}\exp(-\frac{c-d}{2m}t)
+\Rightarrow x(t) = C_{1}\exp(-\frac{c+d}{2m}t)+C_{2}\exp(-\frac{c-d}{2m}t)
 \end{aligned}
 $$
 
