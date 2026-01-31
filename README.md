@@ -119,3 +119,8 @@ r = \frac{-c \pm d}{2m}
 $$
 
 We have our three scenarios! Now let's see how they look experimentally with Python!
+Be sure to checkout the Jupyter Notebook!
+
+<div style="text-align: center;">
+  <img src="image.png" alt="Damped Oscillator Graph">
+</div>
