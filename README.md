@@ -41,7 +41,7 @@ $$
 \begin{aligned}
 c^2-4mk<0 	\Rightarrow c^2<4mk \cdots 1\\
 c^2-4mk=0 	\Rightarrow c^2=4mk \cdots 2\\ 
-c^2-4mk>0 	\Rightarrow c^2>4mk \cdots 1\\ 
+c^2-4mk>0 	\Rightarrow c^2>4mk \cdots 3\\ 
 \end{aligned}
 $$
 
