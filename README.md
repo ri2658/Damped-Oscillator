@@ -103,9 +103,7 @@ Is successfully satisfied. Moreover, note that the Wronskian is also non-zero, w
 So, the general solution is:
 
 $$
-\begin{aligned}
 x(t) = C_{1}\exp(-\frac{c}{2m}t)+C_{2}t\exp(-\frac{c}{2m}t)
-\end{aligned}
 $$
 
 **Possibility $3$**
