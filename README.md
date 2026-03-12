@@ -32,7 +32,9 @@ $$
 
 So, the general solution is 
 $$
-x(t)=C_{1}\exp(\frac{-c + \sqrt{c^2 - 4mk}}{2m})t+C_{2}\exp(\frac{-c + \sqrt{c^2 + 4mk}}{2m})t
+\begin{aligned}
+x(t)=C_{1}\exp(-\frac{c}{2m}t)+C_{2}t
+\end{aligned}
 $$
 
 Let's examine different possibilities for the discriminant $c^2-4mk$.
