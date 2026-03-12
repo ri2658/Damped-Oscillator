@@ -33,7 +33,7 @@ $$
 So, the general solution is 
 $$
 \begin{aligned}
-x(t)=C_{1}\exp(-\frac{c}{2m}t)+C_{2}t
+x(t)=C_{1}\exp(-\frac{c}{2m}t)
 \end{aligned}
 $$
 
